@@ -46,3 +46,140 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+strong {
+	font-weight: bold;
+}
+
+body {
+	font-family: 'Roboto',sans-serif;
+	min-height: 100vh;
+}
+
+div.container {
+	display: grid;
+	grid-template: "sidebar header" "sidebar books";	
+	grid-template-columns: 2fr 6fr;
+	grid-template-rows: 1fr 5fr;
+	min-height: 100vh;
+}
+
+div.header {
+	grid-area: header;
+	background: #1e293b;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 54px;
+	box-shadow: 1px 1px 2px 2px rgb(83, 82, 82);
+}
+
+div.sidebar {
+	grid-area: sidebar;
+	background: #64748b;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+h1 {
+	margin-top: 3vh;
+	font-size: 48px;
+	color: white;
+}
+
+.inputs {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
+	gap: 4vh;
+	font-size: 24px;
+	background: #1e293b;
+	padding: 1rem;
+	border-radius: 1rem;
+	color: white;
+}	
+
+.input-area1 {
+	grid-row: 1;
+	display: flex;
+	gap: 1vw;
+	justify-content: space-around;
+}
+
+.input-area2 {
+	grid-row: 2;
+	display: flex;
+	gap: 1vw;
+	justify-content: space-around;
+}
+
+.input-area3 {
+	grid-row: 3;
+	display: flex;
+	gap: 1vw;
+	justify-content: space-around;
+}
+
+.input-area4 {
+	grid-row: 4;
+	display: flex;
+	gap: 1vw;
+	margin-left: 5vw;
+
+}
+
+input#title,
+input#pages,
+input#author {
+	width: 10vw;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+div.books {
+	grid-area: books;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+}
+
+.book {
+	background: #94a3b8;
+	height: 30vh;
+	width: 30vw;
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 3rem;
+	margin-left: 3rem;
+	padding-left: 3rem;
+	box-shadow: 0px 0px 2px 2px rgb(83, 82, 82);
+}
+
+.remove {
+	width: 5rem;
+	align-self: self-end;
+	margin-right: 2rem;
+}
+
+button {
+	height: 3rem;
+	width: 5rem;
+	font-size: 18px;
+	border: 2px solid rgb(121, 119, 119);
+}
+
+button:hover {
+	background: gray;
+}
+
+button:active {
+	background: rgb(59, 59, 59);
+}
