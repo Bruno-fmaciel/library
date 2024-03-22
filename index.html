@@ -24,15 +24,15 @@
                 <div class="inputs">
                     <div class="input-area1">
                         <label for="title"> Title: </label>
-                        <input type="text" id="title">
+                        <input type="text" id="title" required>
                     </div>
                     <div class="input-area2">
                         <label for="author"> Author: </label>
-                        <input type="text" id="author">
+                        <input type="text" id="author" required>
                     </div>
                     <div class="input-area3">
                         <label for="pages"> Pages: </label>
-                        <input type="text" id="pages">
+                        <input type="text" id="pages" required>
                     </div>
                     <div class="input-area4">
                         <label for="read"> Read? </label>
@@ -40,8 +40,8 @@
                     </div>
                 </div>
                 <div class="forButtons">
-                    <button id="add">Add</button>
-                    <button id="clear">Clear</button>
+                    <button id="add" type="submit">Add</button>
+                    <button id="clear" type="reset">Clear</button>
                 </div>
             </form>
             <div class="logo">
@@ -55,7 +55,7 @@
                 <p>500 pages</p>
                 <p class="read">Read</p>
                 <div class="buttons">
-                    <button id="read">Toggle read</button>
+                    <button id="toggle">Toggle read</button>
                     <button class="remove">Remove</button>
                 </div>
             </div>
