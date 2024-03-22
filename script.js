@@ -8,21 +8,19 @@ function Book(title, author, pages, read) {
 }
 
 function addBook(newBook) {
-    
+    myLibrary.push(newBook);
 }
 
-const title = document.getElementById("title").innerText;
-const author = document.getElementById("author").innerText;
-const pages = document.getElementById("pages").innerText;
-const addButton = document.querySelector("#add");
-const clearButton = document.querySelector("#clear");
-const rmvButton = document.querySelector(".remove");
-const read = document.getElementById("read");
+let showForm = document.querySelector(".form");
+showForm.addEventListener('click', () => {
+    let formBook = document.querySelector("#bookForm");
+    let pForm = document.querySelector(".forms");
+    formBook.style.display = "block";
+    showForm.style.display = "none";
+    pForm.style.display = "none";
+})
 
-addButton.addEventListener("click", () => {
-    if (read.checked) {
-        
-    } else {
-       
-    }
-});
+
+
+
+

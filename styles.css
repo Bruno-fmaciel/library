@@ -209,3 +209,54 @@ div.check {
 	align-items: center;
 	font-size: 20px;
 }
+
+div.buttons {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 1em;
+}
+
+div.forButtons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+}
+
+em {
+	font-style: italic;
+}
+
+.form {
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50rem;
+}
+
+i.material-icons {
+	font-size: 80px;
+}
+
+.create {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 3vh;
+}
+
+p.forms {
+	font-size: 50px;
+}
+
+div.forms {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 3vh;
+}
+
+
+
