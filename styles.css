@@ -149,22 +149,21 @@ div.books {
 	display: grid;
 	grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
 	background: #c7c7c8;
-
+	padding: 40px;
+	gap: 40px;
 }
 
 .book {
 	background: #94a3b8;
-	height: 30vh;
-	width: 20vw;
-	border-radius: 1rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	margin-top: 3rem;
-	margin-left: 3rem;
-	padding-left: 3rem;
-	padding-top: 1rem;
-	box-shadow: 0px 0px 2px 2px rgb(83, 82, 82);
+	padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px 2px rgb(180, 179, 179);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 7px solid #84cc16;
+	height: 20vh;
+
 }
 
 .remove {
@@ -260,7 +259,7 @@ div.forms {
 }
 
 p.read {
-	color: green;
+	color: #84cc16;
 
 }
 
