@@ -161,8 +161,9 @@ div.books {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-left: 7px solid #84cc16;
+    border-left: 7px solid #0e0f0e;
 	height: 20vh;
+	gap: 15px;
 
 }
 
@@ -259,7 +260,7 @@ div.forms {
 }
 
 p.read {
-	color: #84cc16;
-
+	color: #080808;
 }
+
 
