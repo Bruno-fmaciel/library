@@ -150,7 +150,7 @@ div.books {
 	grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
 	background: #c7c7c8;
 	padding: 40px;
-	gap: 40px;
+	gap: 20px;
 }
 
 .book {
@@ -163,7 +163,7 @@ div.books {
     justify-content: space-between;
     border-left: 7px solid #0e0f0e;
 	height: 20vh;
-	gap: 15px;
+	gap: 5px;
 
 }
 
